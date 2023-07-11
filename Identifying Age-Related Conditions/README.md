@@ -15,3 +15,15 @@ Founded in 2015, competition host [InVitro Cell Research, LLC (ICR)](https://inv
 In this competition, you’ll work with measurements of health characteristic data to solve critical problems in bioinformatics. Based on minimal training, you’ll create a model to predict if a person has any of three medical conditions, with an aim to improve on existing methods.
 
 You could help advance the growing field of bioinformatics and explore new methods to solve complex problems with diverse data.
+
+# Submission File
+For each `id` in the test set, you must predict a probability for each of the two classes. The file should contain a header and have the following format:
+
+|Id | class_0 | class_1 |  
+| :----- | :---------- | :---------- |  
+|00ed32682bb | 0.5 | 0.5 |  
+|01ebe33f668 | 0.5 | 0.5 |  
+|02a521e1838 | 0.5 | 0.5 |  
+|04e15f562a2 | 0.5 | 0.5 |  
+|04e85c7cc7f | 0.5 | 0.5 |  
+|... |
